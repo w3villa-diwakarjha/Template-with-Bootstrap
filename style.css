@@ -1,0 +1,196 @@
+.main-div {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+.sub-div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.carousel-caption h5{
+    font-size: 2.25rem;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-item img {
+    object-fit: contain;
+}
+.nav-link:hover{
+    border-bottom: 2px solid red;
+    padding-bottom: 1px;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    height: 100vh;
+
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.sub-content {
+    width: 80%;
+    color: aliceblue;
+}
+
+.btn {
+    color: aliceblue;
+    background: red;
+    height: max-content;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.detail {
+    background-image: url(./img/jason-leung-Xaanw0s0pMk-unsplash.jpg);
+    background-position: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail-section {
+    display: flex;
+}
+
+.image-desc {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    color: aliceblue;
+}
+
+.detail3-section {
+    padding: 51px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.sub-member {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.membership {
+    background-color: lightgrey;
+}
+
+.main-member {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.sub-memebers {
+    background-color: #fff;
+}
+.sub-memebers .bulb{
+    color: yellow;
+    font-size: medium;
+}
+
+.sub-memebers .setting{
+    color: blue;
+    font-size: medium;
+}
+.sub-memebers1 {
+    background-color: #232323;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.sub-memebers1,
+.sub-memebers {
+    text-align: center;
+    box-shadow: 1px 2px 2px 2px rgba(128, 128, 128, 0.466);
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+#nav .collapse{
+    font-size: 18px;
+}
+
+.footer-heading {
+    text-align: center;
+}
+
+.sub-footer {
+    width: 50%;
+    margin: auto;
+}
+
+.main-footer {
+    margin: 53px 0px;
+}
+.social{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.social i{
+    color: #2980b9;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* ############################### Media Query ########################### */
+@media (max-width:992px) {
+    .sub-member {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .sub-member {
+        display: block;
+    }
+
+    .sub-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc{
+        padding: 10px;
+    }
+    .sub-memebers,.sub-memebers1 {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .detail-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-section {
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px){
+    .sub-footer{
+        width: 80%;
+    }
+}
